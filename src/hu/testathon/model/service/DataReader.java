@@ -8,8 +8,8 @@ import java.util.List;
 
 public class DataReader {
 
-    private DataParser dataParser;
-    private List<String> lines;
+    private final DataParser dataParser;
+    private final List<String> lines;
 
     public DataReader(DataParser dataParser, FileDataReader fileDataReader) {
         this.dataParser = dataParser;
