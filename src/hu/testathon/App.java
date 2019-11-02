@@ -41,7 +41,7 @@ public class App {
         int taskNumber = console.readInt();
         System.out.println(testService.getCorrectAnswerStatistic(taskNumber));
         System.out.println("6. feladat: A versenyzők pontszámának meghatározása");
-        dataWriter.printAll(testService.getFinalScores());
+        dataWriter.printAll2(testService.getFinalScores());
         System.out.println("7. feladat: A verseny legjobbjai:");
         System.out.println(testService.getOrderedResults());
     }

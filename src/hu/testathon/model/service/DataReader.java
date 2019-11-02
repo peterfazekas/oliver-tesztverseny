@@ -13,7 +13,7 @@ public class DataReader {
 
     public DataReader(DataParser dataParser, FileDataReader fileDataReader) {
         this.dataParser = dataParser;
-        this.lines = fileDataReader.read();
+        this.lines = fileDataReader.read2();
     }
 
     public Validator getValidator() {
